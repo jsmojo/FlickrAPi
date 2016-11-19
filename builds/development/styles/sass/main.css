@@ -1,0 +1,63 @@
+/* line 45, builds/development/styles/sass/main.scss */
+body {
+  font-size: 15px;
+}
+
+/* line 48, builds/development/styles/sass/main.scss */
+h1, h2, h3, h4, h5 {
+  color: #565656;
+}
+
+/* line 51, builds/development/styles/sass/main.scss */
+p {
+  color: #9a9a9a;
+}
+
+/* line 54, builds/development/styles/sass/main.scss */
+a:focus, a:active, a:focus:active {
+  outline: none;
+}
+
+/* line 57, builds/development/styles/sass/main.scss */
+.red {
+  color: #b71234;
+}
+
+/* line 62, builds/development/styles/sass/main.scss */
+.flickrApi, .features {
+  padding: 15px 0 0 0;
+}
+
+/* line 3, builds/development/styles/sass/main.scss */
+.flickrCntr:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 68, builds/development/styles/sass/main.scss */
+.flickrApi-item {
+  padding: 2.5px;
+}
+
+/* line 71, builds/development/styles/sass/main.scss */
+.flickrCntr-img {
+  display: block;
+  max-width: 100%;
+}
+
+/* line 76, builds/development/styles/sass/main.scss */
+.section {
+  margin-top: 60px;
+}
+
+/* line 81, builds/development/styles/sass/main.scss */
+.footer {
+  background-color: #222;
+  border-color: #000000;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+}

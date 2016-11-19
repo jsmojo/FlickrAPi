@@ -1,0 +1,34 @@
+<div ui-view="navContent"></div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="flickrApi section" ng-controller="flickrApi">
+  <form ng-submit="searchFlickr()">
+    <div class="container">
+      <h3>{{dude.user.flickrTitle}}</h3>
+      <p>{{dude.user.flickrContent}}</p>
+      <input class="form-control"  data-ng-model="searchTerm" placeholder="Search"/>
+    </div>
+    </form></br>
+    <div class="flickrCntr">
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="Christian" src="http://farm1.static.flickr.com/438/19837845882_0a033d6ea6_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="STI" src="http://farm4.static.flickr.com/3776/19829373912_55c2665e2d_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="FLGNTLT SHOOTING - Hannes BMW E3 BAVARIA" src="http://farm4.static.flickr.com/3791/19648194130_a6dcf1b4c2_z.jpg" class="flickrCntr-img"/></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="Red WRX STI Hatch" src="http://farm4.static.flickr.com/3807/19474871225_3c0f5f650e_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="Mitsubishi Lancer Evolution IX" src="http://farm1.static.flickr.com/470/19014661948_7b60efe2e2_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="EW7A7171" src="http://farm4.static.flickr.com/3914/14604079237_1a6cfa4458_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="subie buddies" src="http://farm8.static.flickr.com/7623/16619059438_08f6e36fb0_z.jpg" class="flickrCntr-img" /></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 flickrApi-item"><img title="DROPPED &amp; FITTED HONDA S2000" src="http://farm9.static.flickr.com/8615/16117812399_082c53e079_z.jpg" class="flickrCntr-img"></div>
+
+    </div>
+    <!--<div class="flickrCntr2">
+      <div class='col-xs-6 col-sm-4 col-md-3 flickrApi-item' data-ng-repeat="picture in results.photos.photo | limitTo: 8" on-last-repeat>
+        <img class='flickrCntr-img' ng-src="http://farm{{picture.farm}}.static.flickr.com/{{picture.server}}/{{picture.id}}_{{picture.secret}}_z.jpg" title="{{picture.title}}" />
+      </div>
+    </div>-->
+</div>  
+
+
+ <!-- /container -->
+<div ui-view="footerContent"></div>
+  
+

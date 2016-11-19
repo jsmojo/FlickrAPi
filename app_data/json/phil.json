@@ -1,0 +1,10 @@
+{
+    "user": {
+        "name": "Phillip Medina",
+        "siteTitle": "Phillip",
+        "animeTitle" : "Here are some things that I know.",
+        "flickrTitle": "flickr",
+        "flickrContent": "A little more about me... I enjoy automotive tuning and photography. I've owned a few modified cars and currently have a nicely modified Subaru WRX STi. Below are pictures of cars that I like on Flickr. If this is not your taste, you can use the search field below to pull a different set of pictures using flickrs api."
+    },
+    "stat": "ok"
+}

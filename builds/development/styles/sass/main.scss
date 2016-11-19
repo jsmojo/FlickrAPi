@@ -1,0 +1,88 @@
+//@import "reset";
+@mixin clearfix {
+  &:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  }
+}
+@mixin backgroundSize {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+$white: #ffffff; 
+$gray: #CBCBCB;
+$dayGray: #6e6e6e;
+$black: #000000;
+$red: #b71234;
+$lightBlue: #2bb9e7; 
+$titleColor: #565656;
+$paraColor: #9a9a9a;
+$callAction: #f45a6a;
+$black: #000000;
+$headerFooter: #222;
+
+//Ninja
+$kickassImgWidth:180px;
+$kickassImgHeight:180px;
+//Street Fighter
+//$kickassImgWidth:140px;
+//$kickassImgHeight:160px;
+
+body {
+  font-size: 15px;
+}
+h1,h2,h3,h4,h5 {
+  color: $titleColor;
+}
+p {
+  color: $paraColor;
+}
+a:focus, a:active, a:focus:active {
+  outline: none;
+}
+.red {
+  color: $red;
+}
+
+
+.flickrApi, .features {
+  padding: 15px 0 0 0;
+}
+.flickrCntr{
+  @include clearfix;
+}
+.flickrApi-item {
+  padding: 2.5px;
+}
+.flickrCntr-img {
+  display: block;
+  max-width: 100%;
+}
+
+.section {
+    //padding-bottom: 40px;
+    margin-top: 60px;
+}
+
+ .footer {
+  background-color: $headerFooter;
+  border-color: $black;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+ }
+
+
