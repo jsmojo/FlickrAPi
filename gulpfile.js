@@ -103,6 +103,10 @@ gulp.task('sass', function() {
     //.pipe(livereload());
 });
 
+gulp.task('test',()=>{
+	require('./test.js');
+});
+
 gulp.task('minifyCSS',function() {
   gulp.src(cssSources)
     .pipe(minifyCSS())
@@ -116,7 +120,7 @@ gulp.task('watch', function() {
 });
 
 
-gulp.task('default', ['coffee', 'js', 'sass','minifyCSS','watch','minifyCSS']);
+gulp.task('default', ['coffee', 'test', 'js', 'sass','minifyCSS','watch','minifyCSS']);
 
 
 
